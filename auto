@@ -1,5 +1,5 @@
 (() => {
-  const githubJsonUrl = "fixed_answers.json";
+  const githubJsonUrl = "https://github.com/AslamTarakwadiya/majak/blob/main/fixed_answers.json";
   const questionAnswerMap = {};
   const fallbackPairs = [];
   const askedQuestions = new Set();
@@ -136,4 +136,5 @@
   loadMappings().then(() => {
     autoAnswerLoop();
   });
+
 })();
